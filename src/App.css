@@ -1,0 +1,32 @@
+*{
+  scroll-behavior: smooth;
+}
+.card-content {
+  height: auto;
+  padding: 5% 7%;
+  box-sizing: border-box;
+  gap: 50px;
+  
+}
+
+.btn-outline-dark{
+  padding-left: 15px;
+  padding-right: 25px;
+}
+
+.bi-cart-fill{
+  padding-right:10px;
+}
+
+.badge{
+  border-radius: 20px;
+  left: 10px;
+  padding: 5px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .card-content {
+    gap: 20px;
+  }
+}
